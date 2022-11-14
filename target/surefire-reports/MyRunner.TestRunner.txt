@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: MyRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 0.598 sec <<< FAILURE! - in MyRunner.TestRunner
+Given user is on the login page(| standard_user | secret_sauce |)  Time elapsed: 0.004 sec  <<< ERROR!
+java.lang.ExceptionInInitializerError
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @5f5a92bb
+
+| standard_user | secret_sauce |  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.ExceptionInInitializerError
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @5f5a92bb
+
